@@ -21,6 +21,8 @@ public class Snapshots {
 		FileHandler.copy(Source, new File("./Screenshots/"+snapshotsname+".png"));
 		
 		System.out.println("ScreenShot taken");
+		
+		System.out.println("This downloadedone");
 	} 
 	   catch (IOException e) {
 		System.out.println("Exception throwing while taking snapshots"+e);
